@@ -7,7 +7,7 @@ Metadata providers are CLI tools that provide metadata about the system they are
 by installers and environment managers to make decisions about which packages to choose from.
 
 The CLI was chosen as the lowest common denominator so that installer tools in different languages can all use the same
-metadata providers. This "interface" project provides a template for metadata providers to follow, and defines a minimal
+metadata providers [(as suggested by Paul Moore)](https://discuss.python.org/t/selecting-variant-wheels-according-to-a-semi-static-specification/53446/89). This "interface" project provides a template for metadata providers to follow, and defines a minimal
 set of functionality that metadata providers should implement.
 
 This project provides reference implementations of a metadata providers. Metadata providers should have no
